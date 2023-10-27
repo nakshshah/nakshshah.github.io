@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@700&display=swap');
+body {
+    font-family: 'Lexend Zetta', sans-serif;
+    text-align: center;
+    background-color: lightcyan;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    height: 120vh;
+}
+
+.header {
+    text-align: center;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto; /* Center-align the logo */
+}
+
+.title {
+    font-size: 36px;
+    margin: 20px 0; /* Add margin for spacing */
+}
+
+.links {
+    padding-top: 90px; /* Add padding to move the links down */
+}
+
+
+
+.links a {
+    text-decoration: none;
+    color: #333;
+    margin: 20px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: color 0.3s;
+    margin-right: 20px;
+    text-align: left;
+  
+}
+
+.links a:hover {
+    color: black;
+    border-style: groove;
+    border-color: lightcyan;
+    background-color: #add8e6;
+}
+
+.booking-form {
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+.form-group {
+    margin: 10px 0;
+    text-align: left;
+}
+
+.form-group2 {
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #add8e6;
+    margin: 5px 0;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+}
+
+.payment-details {
+    margin-top: 20px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .logo {
+        width: 100px;
+        height: 100px;
+    }
+    .title {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        width: 80px;
+        height: 80px;
+    }
+    .title {
+        font-size: 24px;
+    }
+}

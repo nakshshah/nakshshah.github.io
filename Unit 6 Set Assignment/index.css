@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kaushan+Script&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: black;
+}
+
+#header {
+    text-align: center;
+    background-color: lightcyan;
+    color: black;
+    padding: 20px 0;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    
+}
+
+#logo {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+#title {
+    text-align: center; /* Center-align the title */
+    padding: 20px 0;
+    font-size: 18px;
+    font-family: 'Lexend Zetta', sans-serif;
+    margin-right: 90px;
+    margin-top: 10px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    text-align: center;
+    background-color: lightcyan;
+    width: 100%;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+#links {
+    text-align: center; /* Center-align the links */
+    margin-top: 10px; /* Adjust the margin as needed */
+    display: block; /* Ensure that the links are block-level elements */
+    margin: 0 auto; /* Horizontally center the block-level element */
+   
+
+}
+
+
+
+
+
+
+
+    #links a {
+        text-decoration: none;
+        color: #333;
+        margin: 0 5px 0 2px;
+        font-family: Arial, Helvetica, sans-serif;
+        transition: color 0.3s;
+        margin-right: 20px; /* You can remove this line */
+        text-align: left;
+    }
+    
+
+
+#links a:hover {
+    color: black;
+    border-style: groove;
+    border-color: lightcyan;
+    background-color: #add8e6;
+}
+
+h2 {
+    font-family: 'Abril Fatface';
+    font-size: 18pt;
+    font-stretch: ultra-expanded;
+    margin-right: 20px;
+    background-color: #add8e6;
+}
+
+
+
+    #header {
+        display: block;
+    }
+    
+    #title {
+        font-size: 16px;
+    }
+    
+    .image-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    
+    #links {
+        text-align: center;
+        margin: 10px 0;
+    }
+    
+    #links a {
+        margin: 0 5px;
+    
+    }

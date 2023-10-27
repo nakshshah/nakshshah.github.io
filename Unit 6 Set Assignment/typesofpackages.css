@@ -1,0 +1,164 @@
+/* Default styles */
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kaushan+Script&display=swap');
+
+body {
+    font-family: 'Abril FatFace', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightcyan;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#header {
+    text-align: center;
+    background-color: lightcyan;
+    color: black;
+    padding: 20px 0;
+    font-size: 18px;
+    font-family: 'Lexend Zetta', sans-serif;
+}
+
+#logo {
+    margin: 0 auto;
+    display: block;
+    height: 150px;
+    float: none;
+}
+
+#link a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: color 0.3s;
+    margin-right: 20px;
+    text-align: left;
+}
+
+#link a:hover {
+    color: black;
+    border-style: groove;
+    border-color: lightcyan;
+    background-color: #add8e6;
+}
+
+
+
+.title {
+    text-align: center;
+    font-size: 18px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.rectangle1, .rectangle2, .rectangle3 {
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.rectangle1 {
+    background-color: gold;
+}
+
+.rectangle2 {
+    background-color: silver;
+}
+
+.rectangle3 {
+    background-color: #CD7F32;
+}
+
+.rectangle1 .package-description,
+.rectangle2 .package-description,
+.rectangle3 .package-description {
+    flex: 1;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.rectangle1 img,
+.rectangle2 img,
+.rectangle3 img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0;
+}
+
+.rectangle3 .package-description {
+    flex: 2;
+    padding: 20px;
+    margin-left: 110px;
+    margin-right: 110px;
+    text-align: center;
+}
+
+.rectangle3 img {
+    margin-left: 190px;
+}
+
+.rectangle3 .subtitle {
+    margin: 0;
+}
+
+
+
+/* Media Queries for Responsiveness */
+
+/* For screens with a maximum width of 768px */
+@media (max-width: 768px) {
+    #header {
+        font-size: 16px;
+    }
+
+    .title {
+        font-size: 16px;
+    }
+
+    .rectangle1,
+    .rectangle2,
+    .rectangle3 {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .rectangle1 .package-description,
+    .rectangle2 .package-description,
+    .rectangle3 .package-description {
+        margin-bottom: 20px;
+    }
+
+    .rectangle3 img {
+        margin-left: 0;
+    }
+}
+
+/* For screens with a maximum width of 480px */
+@media (max-width: 480px) {
+    #header {
+        font-size: 14px;
+    }
+
+    .title {
+        font-size: 14px;
+    }
+}
+
+/* Add more media queries as needed for different screen sizes */

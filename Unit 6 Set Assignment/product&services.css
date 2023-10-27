@@ -1,0 +1,141 @@
+/* Import the Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kaushan+Script&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightcyan;
+}
+
+#header {
+    text-align: center;
+    background-color: lightcyan;
+    color: black;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    float: left;
+    margin-left: 20px;
+}
+
+#title {
+    font-size: 18px;
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Lexend Zetta', sans-serif;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.image {
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+    display: contents;
+}
+
+.image img {
+    width: 150px;
+    height: 150px;
+    align-self: center;
+}
+
+.image-text {
+    font-size: 16px;
+    text-align: center;
+}
+
+#other-services {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#other-services-title {
+    font-size: 20px;
+    font-family: 'Abril FatFace';
+}
+
+#other-services-description {
+    font-size: 16px;
+    text-align: center;
+    display: contents;
+    font-family: 'Abril FatFace';
+}
+
+#links {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#links a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#links a:hover {
+    color: black;
+    background-color: #add8e6;
+    border-style: groove;
+    border-color: lightcyan;
+}
+
+p{
+    font-family: 'Abril FatFace';
+}
+
+h1{
+     font-family: 'Lexend Zetta', sans-serif;
+    
+
+}
+
+h2{
+
+    font-family: 'Abril FatFace';
+}
+
+h3{
+
+    font-family: 'Abril FatFace';
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+    #title {
+        font-size: 16px; /* Decrease font size for smaller screens */
+    }
+
+    .image {
+        width: 150px; /* Decrease image width for smaller screens */
+    }
+
+    .image img {
+        width: 100px; /* Decrease image size for smaller screens */
+        height: 100px;
+    }
+
+    #other-services-title {
+        font-size: 18px; /* Decrease font size for smaller screens */
+    }
+
+    #other-services-description {
+        font-size: 14px; /* Decrease font size for smaller screens */
+    }
+
+    #links a {
+        margin: 0 5px; /* Decrease margin between links for smaller screens */
+    }
+}
